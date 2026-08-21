@@ -27,11 +27,10 @@ const startServer = async () => {
     await connectDB();
 
     // Step 2: Start listening for HTTP requests
-    app.listen(PORT, () => {
-      console.error(`\n Server is running on port ${PORT}`);
-      console.error(` Environment: ${process.env.NODE_ENV || "development"}`);
-      console.error(` URL: http://localhost:${PORT}\n`);
-    });
+    app.listen(PORT, "0.0.0.0", () => {
+  console.error(`\n Server is running on port ${PORT}`);
+  console.error(` Environment: ${process.env.NODE_ENV || "development"}`);
+});
   } catch (error) {
     // If anything fails, log the error and exit
     console.error("Failed to start server:", error.message);
