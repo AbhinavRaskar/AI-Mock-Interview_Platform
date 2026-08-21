@@ -7,9 +7,11 @@ The platform allows users to select an interview role and difficulty level, part
 ## 🚀 Live Demo
 
 ### Frontend
-Coming Soon
+
+https://ai-mock-interview-platform-self.vercel.app/
 
 ### Backend API
+
 https://ai-mock-interview-platform-oxjo.onrender.com
 
 ## ✨ Features
@@ -182,21 +184,27 @@ For security, never commit `.env` files or API keys to GitHub.
 
 ## 🌐 Production Deployment
 
+### Frontend
+
+The React/Vite frontend is deployed on Vercel.
+
+Production URL:
+
+https://ai-mock-interview-platform-self.vercel.app/
+
+Production API configuration:
+
+VITE_API_URL=https://ai-mock-interview-platform-oxjo.onrender.com/api
+
 ### Backend
 
-The backend is deployed on Render.
+The Node.js/Express backend is deployed on Render.
 
-Backend URL:
+Production URL:
 
 https://ai-mock-interview-platform-oxjo.onrender.com
 
-### Frontend
-
-The frontend is deployed using Vercel.
-
-For production, configure:
-
-VITE_API_URL=https://ai-mock-interview-platform-oxjo.onrender.com/api
+The backend uses MongoDB Atlas for database storage.
 
 ## 🏗️ Application Architecture
 
@@ -282,6 +290,7 @@ VITE_API_URL=https://ai-mock-interview-platform-oxjo.onrender.com/api
 Computer Engineering | Full Stack Developer
 
 GitHub:
+
 https://github.com/AbhinavRaskar
 
 ## ⭐ Support
